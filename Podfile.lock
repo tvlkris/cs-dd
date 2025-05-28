@@ -1,0 +1,448 @@
+PODS:
+  - Adjust (4.32.1):
+    - Adjust/Core (= 4.32.1)
+  - Adjust/Core (4.32.1)
+  - AFNetworkActivityLogger (4.0.0-tvlk):
+    - AFNetworking/NSURLSession (~> 4.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Amplitude (8.10.0):
+    - AnalyticsConnector (~> 1.0.0)
+  - AnalyticsConnector (1.0.1)
+  - AppAuth (1.6.2):
+    - AppAuth/Core (= 1.6.2)
+    - AppAuth/ExternalUserAgent (= 1.6.2)
+  - AppAuth/Core (1.6.2)
+  - AppAuth/ExternalUserAgent (1.6.2):
+    - AppAuth/Core
+  - Appboy-iOS-SDK (4.4.4):
+    - Appboy-iOS-SDK/UI (= 4.4.4)
+  - Appboy-iOS-SDK/ContentCards (4.4.4):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/Core (4.4.4)
+  - Appboy-iOS-SDK/InAppMessage (4.4.4):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/NewsFeed (4.4.4):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (< 6, >= 5.8.2)
+  - Appboy-iOS-SDK/UI (4.4.4):
+    - Appboy-iOS-SDK/ContentCards
+    - Appboy-iOS-SDK/Core
+    - Appboy-iOS-SDK/InAppMessage
+    - Appboy-iOS-SDK/NewsFeed
+  - Appboy-Push-Story (4.0.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts-Swift (1.5.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CocoaMQTT (2.0.8):
+    - CocoaMQTT/Core (= 2.0.8)
+  - CocoaMQTT/Core (2.0.8):
+    - MqttCocoaAsyncSocket (~> 1.0.6)
+  - CS_iOS_SDK_STATIC (4.41.3):
+    - CSCrashReporter (= 1.0.1)
+    - CSSwiftProtobuf (= 1.28.2)
+  - CSCrashReporter (1.0.1)
+  - CSSwiftProtobuf (1.28.2)
+  - DatadogCore (2.20.0):
+    - DatadogInternal (= 2.20.0)
+  - DatadogInternal (2.20.0)
+  - DatadogLogs (2.20.0):
+    - DatadogInternal (= 2.20.0)
+  - DatadogRUM (2.20.0):
+    - DatadogInternal (= 2.20.0)
+  - DatadogTrace (2.20.0):
+    - DatadogInternal (= 2.20.0)
+    - OpenTelemetrySwiftApi (= 1.6.0)
+  - DateTools (2.0.0)
+  - DeepLinkKit (1.5.3-tvlk)
+  - DTCoreText (1.6.23-tvlk-2):
+    - DTCoreText/Core (= 1.6.23-tvlk-2)
+    - DTFoundation/Core (= 1.7.16-tvlk)
+    - DTFoundation/DTAnimatedGIF (= 1.7.16-tvlk)
+    - DTFoundation/DTHTMLParser (= 1.7.16-tvlk)
+    - DTFoundation/UIKit (= 1.7.16-tvlk)
+  - DTCoreText/Core (1.6.23-tvlk-2):
+    - DTFoundation/Core (= 1.7.16-tvlk)
+    - DTFoundation/DTAnimatedGIF (= 1.7.16-tvlk)
+    - DTFoundation/DTHTMLParser (= 1.7.16-tvlk)
+    - DTFoundation/UIKit (= 1.7.16-tvlk)
+  - DTFoundation (1.7.16-tvlk):
+    - DTFoundation/AppKit (= 1.7.16-tvlk)
+    - DTFoundation/Core (= 1.7.16-tvlk)
+    - DTFoundation/Debug (= 1.7.16-tvlk)
+    - DTFoundation/DTAnimatedGIF (= 1.7.16-tvlk)
+    - DTFoundation/DTASN1 (= 1.7.16-tvlk)
+    - DTFoundation/DTAsyncFileDeleter (= 1.7.16-tvlk)
+    - DTFoundation/DTAWS (= 1.7.16-tvlk)
+    - DTFoundation/DTHTMLParser (= 1.7.16-tvlk)
+    - DTFoundation/DTProgressHUD (= 1.7.16-tvlk)
+    - DTFoundation/DTReachability (= 1.7.16-tvlk)
+    - DTFoundation/DTScripting (= 1.7.16-tvlk)
+    - DTFoundation/DTSidePanel (= 1.7.16-tvlk)
+    - DTFoundation/DTSQLite (= 1.7.16-tvlk)
+    - DTFoundation/DTUTI (= 1.7.16-tvlk)
+    - DTFoundation/DTZipArchive (= 1.7.16-tvlk)
+    - DTFoundation/Runtime (= 1.7.16-tvlk)
+    - DTFoundation/UIKit (= 1.7.16-tvlk)
+    - DTFoundation/UIKit_BlocksAdditions (= 1.7.16-tvlk)
+  - DTFoundation/Core (1.7.16-tvlk)
+  - DTFoundation/Debug (1.7.16-tvlk):
+    - DTFoundation/Core
+    - DTFoundation/Runtime
+  - DTFoundation/DTAnimatedGIF (1.7.16-tvlk)
+  - DTFoundation/DTASN1 (1.7.16-tvlk):
+    - DTFoundation/Core
+  - DTFoundation/DTAsyncFileDeleter (1.7.16-tvlk):
+    - DTFoundation/Core
+  - DTFoundation/DTAWS (1.7.16-tvlk):
+    - DTFoundation/Core
+  - DTFoundation/DTHTMLParser (1.7.16-tvlk):
+    - DTFoundation/Core
+  - DTFoundation/DTProgressHUD (1.7.16-tvlk):
+    - DTFoundation/Core
+    - DTFoundation/UIKit
+  - DTFoundation/DTReachability (1.7.16-tvlk):
+    - DTFoundation/Core
+  - DTFoundation/DTScripting (1.7.16-tvlk):
+    - DTFoundation/Core
+  - DTFoundation/DTSidePanel (1.7.16-tvlk):
+    - DTFoundation/UIKit
+  - DTFoundation/DTSQLite (1.7.16-tvlk):
+    - DTFoundation/Core
+  - DTFoundation/DTUTI (1.7.16-tvlk)
+  - DTFoundation/DTZipArchive (1.7.16-tvlk):
+    - DTFoundation/DTZipArchive/Minizip (= 1.7.16-tvlk)
+  - DTFoundation/DTZipArchive/Minizip (1.7.16-tvlk)
+  - DTFoundation/Runtime (1.7.16-tvlk)
+  - DTFoundation/UIKit (1.7.16-tvlk):
+    - DTFoundation/Core
+  - DTFoundation/UIKit_BlocksAdditions (1.7.16-tvlk):
+    - DTFoundation/Core
+  - Factory (2.1.4)
+  - FLEX (5.22.10)
+  - GDPerformanceView (1.3.1-tvlk)
+  - GoogleSignIn (6.2.4):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - GoogleToolboxForMac (3.0.0):
+    - GoogleToolboxForMac/Core (= 3.0.0)
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+    - GoogleToolboxForMac/GeometryUtils (= 3.0.0)
+    - GoogleToolboxForMac/KVO (= 3.0.0)
+    - GoogleToolboxForMac/Logger (= 3.0.0)
+    - "GoogleToolboxForMac/NSData+zlib (= 3.0.0)"
+    - "GoogleToolboxForMac/NSFileHandle+UniqueName (= 3.0.0)"
+    - "GoogleToolboxForMac/NSString+HTML (= 3.0.0)"
+    - "GoogleToolboxForMac/NSString+XML (= 3.0.0)"
+    - "GoogleToolboxForMac/NSThread+Blocks (= 3.0.0)"
+    - GoogleToolboxForMac/StringEncoding (= 3.0.0)
+  - GoogleToolboxForMac/Core (3.0.0):
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - GoogleToolboxForMac/DebugUtils (3.0.0):
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - GoogleToolboxForMac/Defines (3.0.0)
+  - GoogleToolboxForMac/GeometryUtils (3.0.0):
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - GoogleToolboxForMac/KVO (3.0.0):
+    - GoogleToolboxForMac/Core (= 3.0.0)
+    - GoogleToolboxForMac/DebugUtils (= 3.0.0)
+  - GoogleToolboxForMac/Logger (3.0.0):
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - "GoogleToolboxForMac/NSData+zlib (3.0.0)":
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - "GoogleToolboxForMac/NSFileHandle+UniqueName (3.0.0)":
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - "GoogleToolboxForMac/NSString+HTML (3.0.0)":
+    - GoogleToolboxForMac/Core (= 3.0.0)
+  - "GoogleToolboxForMac/NSString+XML (3.0.0)":
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - "GoogleToolboxForMac/NSThread+Blocks (3.0.0)":
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - GoogleToolboxForMac/StringEncoding (3.0.0):
+    - GoogleToolboxForMac/Defines (= 3.0.0)
+  - GSPlayer (0.2.25)
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher (2.3.0):
+    - GTMSessionFetcher/Full (= 2.3.0)
+  - GTMSessionFetcher/Core (2.3.0)
+  - GTMSessionFetcher/Full (2.3.0):
+    - GTMSessionFetcher/Core
+  - HaishinKit (1.4.3):
+    - Logboard (~> 2.3.0)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - ios-rn-prebuilt (2.3.18):
+    - ios-rn-prebuilt/main (= 2.3.18)
+  - ios-rn-prebuilt/main (2.3.18):
+    - ios-rn-prebuilt/yoga
+    - SDWebImage
+  - ios-rn-prebuilt/yoga (2.3.18)
+  - KMNavigationBarTransition (1.1.12-tvlk)
+  - LineSDKSwift (5.11.1):
+    - LineSDKSwift/Core (= 5.11.1)
+  - LineSDKSwift/Core (5.11.1)
+  - Logboard (2.3.1)
+  - lottie-ios (4.3.1)
+  - MqttCocoaAsyncSocket (1.0.8)
+  - naveridlogin-sdk-ios (4.2.3)
+  - Nimble (12.1.0)
+  - OCMock (3.4.1)
+  - OHHTTPStubs (9.0.0):
+    - OHHTTPStubs/Default (= 9.0.0)
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - OpenTelemetrySwiftApi (1.6.0)
+  - PerformanceSuite (1.4.2-tvlk-2)
+  - PINCache (3.0.1):
+    - PINCache/Arc-exception-safe (= 3.0.1)
+    - PINCache/Core (= 3.0.1)
+  - PINCache/Arc-exception-safe (3.0.1):
+    - PINCache/Core
+  - PINCache/Core (3.0.1):
+    - PINOperation (~> 1.2.0)
+  - PINOperation (1.2.2)
+  - QueueITLibrary (3.4.4)
+  - RadarSDK (3.8.12-tvlk)
+  - SAMKeychain (1.5.2)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+  - SendbirdChatSDK (4.2.4)
+  - Sift (1.0.1)
+  - SnapKit (5.6.0)
+  - Starscream (4.0.4)
+  - SwiftLint (0.51.0)
+  - Texture/Core (11.38-tvlk)
+  - TVLMasonry (1.1.1)
+  - xcbeautify (0.13.0)
+  - Xendit (2.1.8-tvlk)
+  - youtube-ios-player-helper (1.0.4)
+
+DEPENDENCIES:
+  - Adjust (= 4.32.1)
+  - AFNetworkActivityLogger (= 4.0.0-tvlk)
+  - AFNetworking (= 4.0.1)
+  - Amplitude (= 8.10.0)
+  - AnalyticsConnector (= 1.0.1)
+  - AppAuth (= 1.6.2)
+  - Appboy-iOS-SDK (= 4.4.4)
+  - Appboy-Push-Story (= 4.0.0)
+  - Bolts (= 1.9.0)
+  - Bolts-Swift (= 1.5.0)
+  - CocoaMQTT (= 2.0.8)
+  - CS_iOS_SDK_STATIC (= 4.41.3)
+  - CSCrashReporter (= 1.0.1)
+  - CSSwiftProtobuf (= 1.28.2)
+  - DatadogCore (= 2.20.0)
+  - DatadogInternal (= 2.20.0)
+  - DatadogLogs (= 2.20.0)
+  - DatadogRUM (= 2.20.0)
+  - DatadogTrace (= 2.20.0)
+  - DateTools (= 2.0.0)
+  - DeepLinkKit (= 1.5.3-tvlk)
+  - DTCoreText (= 1.6.23-tvlk-2)
+  - DTFoundation (= 1.7.16-tvlk)
+  - Factory (= 2.1.4)
+  - FLEX (= 5.22.10)
+  - GDPerformanceView (= 1.3.1-tvlk)
+  - GoogleSignIn (= 6.2.4)
+  - GoogleToolboxForMac (= 3.0.0)
+  - GSPlayer (= 0.2.25)
+  - GTMAppAuth (= 1.3.1)
+  - GTMSessionFetcher (= 2.3.0)
+  - HaishinKit (= 1.4.3)
+  - IGListDiffKit (= 4.0.0)
+  - IGListKit (= 4.0.0)
+  - ios-rn-prebuilt (= 2.3.18)
+  - KMNavigationBarTransition (= 1.1.12-tvlk)
+  - LineSDKSwift (= 5.11.1)
+  - Logboard (= 2.3.1)
+  - lottie-ios (= 4.3.1)
+  - MqttCocoaAsyncSocket (= 1.0.8)
+  - naveridlogin-sdk-ios (= 4.2.3)
+  - Nimble (= 12.1.0)
+  - OCMock (= 3.4.1)
+  - OHHTTPStubs (= 9.0.0)
+  - OpenTelemetrySwiftApi (= 1.6.0)
+  - PerformanceSuite (= 1.4.2-tvlk-2)
+  - PINCache (= 3.0.1)
+  - PINOperation (= 1.2.2)
+  - QueueITLibrary (= 3.4.4)
+  - RadarSDK (= 3.8.12-tvlk)
+  - SAMKeychain (= 1.5.2)
+  - SDWebImage (= 5.9.4)
+  - SendbirdChatSDK (= 4.2.4)
+  - Sift (= 1.0.1)
+  - SnapKit (= 5.6.0)
+  - Starscream (= 4.0.4)
+  - SwiftLint (= 0.51.0)
+  - Texture/Core (= 11.38-tvlk)
+  - TVLMasonry (= 1.1.1)
+  - xcbeautify (= 0.13.0)
+  - Xendit (= 2.1.8-tvlk)
+  - youtube-ios-player-helper (= 1.0.4)
+
+SPEC REPOS:
+  "git@github.com:traveloka/Specs.git":
+    - Adjust
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - Amplitude
+    - AnalyticsConnector
+    - AppAuth
+    - Appboy-iOS-SDK
+    - Appboy-Push-Story
+    - Bolts
+    - Bolts-Swift
+    - CocoaMQTT
+    - CS_iOS_SDK_STATIC
+    - CSCrashReporter
+    - CSSwiftProtobuf
+    - DatadogCore
+    - DatadogInternal
+    - DatadogLogs
+    - DatadogRUM
+    - DatadogTrace
+    - DateTools
+    - DeepLinkKit
+    - DTCoreText
+    - DTFoundation
+    - Factory
+    - FLEX
+    - GDPerformanceView
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GSPlayer
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - HaishinKit
+    - IGListDiffKit
+    - IGListKit
+    - ios-rn-prebuilt
+    - KMNavigationBarTransition
+    - LineSDKSwift
+    - Logboard
+    - lottie-ios
+    - MqttCocoaAsyncSocket
+    - naveridlogin-sdk-ios
+    - Nimble
+    - OCMock
+    - OHHTTPStubs
+    - OpenTelemetrySwiftApi
+    - PerformanceSuite
+    - PINCache
+    - PINOperation
+    - QueueITLibrary
+    - RadarSDK
+    - SAMKeychain
+    - SDWebImage
+    - SendbirdChatSDK
+    - Sift
+    - SnapKit
+    - Starscream
+    - SwiftLint
+    - Texture
+    - TVLMasonry
+    - xcbeautify
+    - Xendit
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Adjust: 3030e2e086023cb6cadef374b500b6cc263bb9d0
+  AFNetworkActivityLogger: 8008ac21d5f03a0a035d3ab05baba7ff877b7902
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  Amplitude: 240510eaf313fba7879976ea0f82b541adc0e022
+  AnalyticsConnector: eccd7e1cd3dd18e6bd09ac2506e37d4ed43ba3f4
+  AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
+  Appboy-iOS-SDK: b05b957ab645d0a9a43d3f35195ad69202b89edc
+  Appboy-Push-Story: e6bc29e23b7e2262c7a8a93cce0fc8d0b85b6e06
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Bolts-Swift: afbbaf8c8186e7f769be4afa656949c14087ba44
+  CocoaMQTT: 684ad2bd374e9a8fc64e39235b0542a8c125390a
+  CS_iOS_SDK_STATIC: 1b9669e086a8e87443a58b44f257fc85b110e4e4
+  CSCrashReporter: 4c2fc65aea6802c505359a8a4f540af9bcac3dc1
+  CSSwiftProtobuf: fe21cbf86c1fbafb61f1e82480cdcb9f93a4b36c
+  DatadogCore: 76464e5efdab424fc6e0dfbcb07ec13cb197dff7
+  DatadogInternal: 0937afd597b5c25bfaedc102e3f4ac2b8b06d871
+  DatadogLogs: 13c14990d33c191f24e203a2f99fde63b3b11469
+  DatadogRUM: 0251656c47ed968cc16b97bcdd5075736f06f2f7
+  DatadogTrace: 6ba28108f3021b69c9b1885372d7ca5b70b0d1d0
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  DeepLinkKit: 8f997c6f1eeb8fa380312147fa9ff110db50b00d
+  DTCoreText: 9d62e07d4f0e916c2d96a354fef135a009266e85
+  DTFoundation: e3457a601819b0f3a0046d5d84627d27419e33dc
+  Factory: d36d75bd083df3dd479e0723ae664dd75f2e02e9
+  FLEX: f21ee4f498eed3f8a1eded66b21939fd3b7a22ce
+  GDPerformanceView: ab1a56efc69f80079df6a8a0741b4b342e35c1e5
+  GoogleSignIn: 5651ce3a61e56ca864160e79b484cd9ed3f49b7a
+  GoogleToolboxForMac: 970a0066c5ac38b1bdd2abf94647fa7169ed1583
+  GSPlayer: 3b6850a0f26af54967396d637c2e4646dc451013
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+  HaishinKit: 56633b5f3f298063d2f462e8c9a7faa51cd1a96b
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  ios-rn-prebuilt: 7e56ff2adcd79b800044017bf336f447b6a9aeed
+  KMNavigationBarTransition: 73c476050c909b4b3c816fb5cc7b4b581ccb6cb7
+  LineSDKSwift: a3396147600cd9f2548fea88f31f49d928384bcb
+  Logboard: 3d98bb85de6a36b255ab637e8178eb5671c5c3a6
+  lottie-ios: 6279047f1cc31b395e11f1fc24f3dab68cbf0df2
+  MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
+  naveridlogin-sdk-ios: ba4aad0fe3302c22ce646bf058ca23ce9ff96d85
+  Nimble: 7badc051fbff5e14e3798e2392b9389de67f75ea
+  OCMock: 2cd0716969bab32a2283ff3a46fd26a8c8b4c5e3
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  OpenTelemetrySwiftApi: f5c67bb8a9092999b8ad5e192784d717f36a9785
+  PerformanceSuite: e875ff9ff5d091ffbd2babe8219f677ef0264fe1
+  PINCache: ee3c4abadd09970a61cdda0cfc345e69a3d75b26
+  PINOperation: daa34d4aa1d8449089be7d405b9d974abc4724c6
+  QueueITLibrary: 3b63c0dc2646adbc947c77f1c7ddaf7bbf5ec432
+  RadarSDK: 8038bfd00d5deb5df849060afab9bb326d253e54
+  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  SendbirdChatSDK: 816f2158c714bc62a743f409ec67db95a25bbcdb
+  Sift: b88d136789aec911712562cc72f6f715aba588fb
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftLint: 1b7561918a19e23bfed960e40759086e70f4dba5
+  Texture: 526774eb9135501140e63f7ae897c0109d2e9680
+  TVLMasonry: ea50f9f29efe514e18cd7fd988e657ac110ee6ae
+  xcbeautify: 663b4c0c6e1ba22b5dfaf9382202473d3bd52046
+  Xendit: c3c0ed87b898d3acc03525a1b33142cabcf67a0e
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+
+PODFILE CHECKSUM: f293522b4712b62e3af2285bdd608cf3cfc74db1
+
+COCOAPODS: 1.16.2
