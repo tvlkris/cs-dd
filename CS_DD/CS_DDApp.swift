@@ -9,8 +9,18 @@ import DatadogCore
 import DatadogLogs
 import DatadogRUM
 import DatadogTrace
+import FirebaseCore
 import SwiftUI
 import UIKit
+
+let logger: LoggerProtocol = Logger.create(
+    with: Logger.Configuration(
+        name: #fileID.components(separatedBy: "/").first,
+        networkInfoEnabled: true,
+        remoteLogThreshold: .info,
+        consoleLogFormat: .shortWith(prefix: "[Datadog Logs] ")
+    )
+)
 
 final class AppDelegate: NSObject, UIApplicationDelegate {
     private let kDatadogDevAppID: String = "6b3c5da9-7484-4a47-8f8c-85dc6e88ef06"
@@ -19,6 +29,8 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
     private let kDatadogDevEnvironment: String = "staging"
 
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+
         initializeDatadogWithLog()
 
         let config = RUM.Configuration(
@@ -35,16 +47,6 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
             "phoneCount": 1,
         ]
         let pattern1 = try! NSRegularExpression(pattern: "[^a-zA-Z0-9 -]+")
-        let logger: LoggerProtocol = Logger.create(
-            with: Logger.Configuration(
-                name: #fileID.components(separatedBy: "/").first,
-                networkInfoEnabled: true,
-                remoteLogThreshold: .info,
-                consoleLogFormat: .shortWith(prefix: "[Datadog Logs] ")
-            )
-        )
-        let pattern2 = try! NSRegularExpression(pattern: "[^a-zA-Z0-9 -]+")
-
         logger.log(level: .warn, message: "ODM Initializing", error: nil, attributes: attributes)
 
         return true
@@ -79,6 +81,14 @@ struct CS_DDApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    let attributes: [String: Encodable] = [
+                        "isRealmFinished": true,
+                        "emailCount": 1,
+                        "phoneCount": 1,
+                    ]
+                    logger.log(level: .warn, message: "ODM Initializing", error: nil, attributes: attributes)
+                }
         }
     }
 }
